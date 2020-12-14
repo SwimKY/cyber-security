@@ -23,20 +23,20 @@
 
 #### 基础知识展示
 
-![网站首页](https://github.com/SwimKY/cyber-security/tree/master/image/02.jpg)
+![网站首页](https://youkaiyang.oss-cn-beijing.aliyuncs.com/githubImage/02.png)
 
 #### 百度地图展示
 
-![网站首页](https://github.com/SwimKY/cyber-security/tree/master/image/03.jpg)
+![网站首页](https://youkaiyang.oss-cn-beijing.aliyuncs.com/githubImage/03.png)
 
 #### 宣传展示
 
-![网站首页](https://github.com/SwimKY/cyber-security/tree/master/image/04.jpg)
+![网站首页](https://youkaiyang.oss-cn-beijing.aliyuncs.com/githubImage/04.png)
 
 #### 搜索页面，实现关键字高亮
 
-![网站首页](https://github.com/SwimKY/cyber-security/tree/master/image/05.jpg)
+![网站首页](https://youkaiyang.oss-cn-beijing.aliyuncs.com/githubImage/05.png)
 
 #### 热点新闻页面，实现Redis、数据库、爬虫多数据源获取数据
 
-![网站首页](https://github.com/SwimKY/cyber-security/tree/master/image/06.jpg)
+![网站首页](https://youkaiyang.oss-cn-beijing.aliyuncs.com/githubImage/06.png)
