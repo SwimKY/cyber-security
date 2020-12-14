@@ -19,7 +19,7 @@
 
 #### 网站首页展示
 
-![网站首页](https://github.com/SwimKY/cyber-security/master/image/01.jpg)
+![网站首页](https://youkaiyang.oss-cn-beijing.aliyuncs.com/githubImage/01.png)
 
 #### 基础知识展示
 
