@@ -16,3 +16,5 @@
 
 项目启动注意事项：项目启动前需要提前启动本地redis、Elasticsearch，配置数据库地址等
 启动完成后访问http://localhost:8004；
+
+![Image text](https://raw.github.com/SwimKY/repositpry/master/cyber-security/image/01.jpg)
