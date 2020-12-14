@@ -20,6 +20,7 @@
 #### 网站首页展示
 
 ![网站首页](https://youkaiyang.oss-cn-beijing.aliyuncs.com/githubImage/01.png)
+![Image text](https://youkaiyang.oss-cn-beijing.aliyuncs.com/githubImage/01.png)
 
 #### 基础知识展示
 
