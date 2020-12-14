@@ -17,7 +17,7 @@
 项目启动注意事项：项目启动前需要提前启动本地redis、Elasticsearch，配置数据库地址等
 启动完成后访问http://localhost:8004；
 
-[码云地址：https://gitee.com/youkaiyang/cyber-security](码云地址：https://gitee.com/youkaiyang/cyber-security)
+[码云地址：https://gitee.com/youkaiyang/cyber-security](https://gitee.com/youkaiyang/cyber-security)
 
 #### 网站首页展示
 
