@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class=" js no-touch">
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>网络安全</title>
+    <meta name="keywords" content="网络安全">
+
+    <link th:href="@{css/font-awesome.css}" rel="stylesheet">
+    <link th:href="@{css/bootstrap.css}" rel="stylesheet">
+    <link th:href="@{css/btnStyle.css}" rel="stylesheet">
+    <link th:href="@{css/animate.css}" rel="stylesheet">
+    <link th:href="@{css/index_002.css}" rel="stylesheet">
+    <link th:href="@{css/zoomify.css}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" th:href="@{css/_sitegray_d.css}">
+    <script language="javascript" th:src="@{js/_sitegray.js}"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{css/index.css}">
+    <script type="text/javascript" th:src="@{js/counter.js}"></script>
+    <script type="text/javascript">
+        _jsq_(1001, '/index.jsp', -1, 1213653725)
+    </script>
+    <embed th:src="@{mp3/xingqiu.mp3}" hidden="true" autostart="true">
+    <link rel="shortcut icon" th:href="@{images/favicon.ico}" />
+</head>
+
+<body>
+<canvas id="canvas" width="1536" height="722"></canvas>
+<div class="height-100">
+    <div class="mainPage">
+        <div class="navigation-bar" id="searchapp">
+            <!--左侧logo-->
+            <a href="javascript:;">
+                <div class="navigation-logo">
+                   <img th:src="@{images/logo01.png}" height="80px" width="200px">
+                </div>
+            </a>
+            <!--右侧搜索框-->
+            <div class="navigation-search">
+                <form class="parent" id="formtest" method="get" action="/search"><!---->
+                    <input type="text" class="search" v-model="keyword" autocomplete="off" id="keyword"
+                           aria-haspopup="true" placeholder="网络安全" value="网络安全" name="keyword">
+                    <input type="submit" id="searchbtn" value="提交" class="btn" onclick="searchKey()">
+                </form>
+            </div>
+        </div>
+        <div class="mainCont">
+
+            <img class="img-max-widtd position-r" th:src="@{images/banner7.jpg}" onclick="javascript:;">
+            <div class="menu-title">
+                <div class="text-center color-white font-size-20 animated infinite ">网络安全为人民，网络安全靠人民</div>
+            </div>
+            <div class="menu-btn">
+                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+                    <a class="hi-icon" href="/breakingnews">热点新闻</a>
+                    <a class="hi-icon" href="javascript:;">网安大讲堂</a>
+                    <a class="hi-icon" href="javascript:;">网安视频</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container color-white" id="page1">
+            <div class="title animated" id="page1Anim">网络安全基础知识</div>
+            <div class="text-left content-p font-size-16 page-padding">
+                <p class="title-margin" style="text-indent: 2em;">
+                    网络安全，通常指计算机网络的安全，实际上也可以指计算机通信网络的安全。计算机通信网络是将若干台具有独立功能的计算机通过通信设备及传输媒体互连起来，在通信软件的支持下，实现计算机间的信息传输与交换的系统。而计算机网络是指以共享资源为目的，利用通信手段把地域上相对分散的若干独立的计算机系统、终端设备和数据设备连接起来，并在协议的控制下进行数据交换的系统。计算机网络的根本目的在于资源共享，通信网络是实现网络资源共享的途径，因此，计算机网络是安全的，相应的计算机通信网络也必须是安全的，应该能为网络用户实现信息交换与资源共享。下文中，网络安全既指计算机网络安全，又指计算机通信网络安全。
+                <p>安全的基本含义：客观上不存在威胁，主观上不存在恐惧。即客体不担心其正常状态受到影响。</p>
+                <p>
+                    可以把网络安全定义为：一个网络系统不受任何威胁与侵害，能正常地实现资源共享功能。要使网络能正常地实现资源共享功能，首先要保证网络的硬件、软件能正常运行，然后要保证数据信息交换的安全。从前面两节可以看到，由于资源共享的滥用，导致了网络的安全问题。因此网络安全的技术途径就是要实行有限制的共享。
+                </p>
+                </p>
+            </div>
+        </div>
+
+        <div class="container color-white">
+            <div class="title animated" id="page2Anim">共建网络安全和谐地球村</div>
+            <div class="font-size-16 title-margin" id="allmap" style="width: 1000px; height: 670px;margin: auto;">
+            </div>
+        </div>
+
+        <div class="container color-white" id="page4">
+            <div class="title animated" id="page4Anim">宣传展示</div>
+            <div class="text-left content-p font-size-16 title-margin page-padding">
+                <ul class="list-i">
+                    <li><img th:src="@{images/1.jpg}" class="zoomify"></li>
+                    <li><img src="images/2.jpg" class="zoomify"></li>
+                    <li><img src="images/3.jpg" class="zoomify"></li>
+                    <li><img src="images/4.jpg" class="zoomify"></li>
+                    <li><img src="images/5.jpg" class="zoomify"></li>
+                    <li><img src="images/6.jpg" class="zoomify"></li>
+                    <li><img src="images/7.jpg" class="zoomify"></li>
+                    <li><img src="images/8.jpg" class="zoomify"></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript"
+        src="http://api.map.baidu.com/api?type=webgl&v=1.0&ak=caV1gB8j4AsmX6Y3HxfSDpBODOHbkwve"></script>
+<script type="text/javascript" th:src="@{js/jquery.js}"></script>
+<script type="text/javascript" th:src="@{js/zoomify.js}"></script>
+<script type="text/javascript" th:src="@{js/bootstrap.js}"></script>
+<script type="text/javascript" th:src="@{js/vue.js}"></script>
+<script type="text/javascript" th:src="@{js/btnJs.js}"></script>
+<script type="text/javascript" th:src="@{js/canvas.js}"></script>
+<script type="text/javascript" th:src="@{js/index.js}"></script>
+<script th:src="@{/js/axios.min.js}"></script>
+<script th:src="@{/js/vue.min.js}"></script>
+<script type="text/javascript">
+    $('.list-i img').zoomify();
+
+    function openNav() {
+        document.getElementById("myNav").classList.toggle("menu_width");
+        document
+            .querySelector(".custom_menu-btn")
+            .classList.toggle("menu_btn-style");
+    }
+
+    window.onload = function () {
+        // GL版命名空间为BMapGL
+        var map = new BMapGL.Map("allmap"); // 创建Map实例
+        map.centerAndZoom(new BMapGL.Point(114.276355, 30.45622), 4); // 初始化地图,设置中心点坐标和地图级别
+        map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+        map.setMapType(BMAP_EARTH_MAP); // 设置地图类型为地球模式
+    }
+
+    function searchKey(){
+        var parm1=document.getElementById("keyword").value;
+        var href = '/search/'+parm1;
+        // alert(href);
+        window.location.href = href;
+    }
+    /**
+     * 搜索实现
+     */
+    // new Vue({
+    //     el: '#searchapp',
+    //     data: {
+    //         keyword: '',
+    //         result: [],//结果
+    //     },
+    //     methods: {
+    //         // searchKey() {
+    //         //     var keyword = this.keyword;
+    //         //     this.$router.push({
+    //         //         name:"search",
+    //         //         params:{
+    //         //             keyword:keyword,
+    //         //         }
+    //         //     })
+    //         // }
+    //         // searchKey() {
+    //         //     var keyword = this.keyword;
+    //         //     axios.get('/search/' + keyword + '/1/18').then(
+    //         //         response => {
+    //         //             this.result = response.data
+    //         //             console.log(this.result)
+    //         //         })
+    //         // }
+    //         searchKey() {
+    //             var keyword = this.keyword;
+    //             axios.get('/search/' + keyword).then(
+    //                 response => {
+    //                     this.result = response.data
+    //                 })
+    //         }
+    //     }
+    // })
+</script>
+</body>
+
+</html>
